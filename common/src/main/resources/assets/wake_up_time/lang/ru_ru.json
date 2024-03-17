@@ -1,0 +1,13 @@
+{
+  "config.wake_up_time.title": "Wake Up Time Config",
+  "config.wake_up_time.persistent": "Persistent notification",
+  "config.wake_up_time.persistent.tooltip": "If enabled, pressing the keybind will toggle the message on and off. If disabled, the message will only be displayed for a short time.",
+  "category.wake_up_time.": "Wake Up Time",
+  "key.wake_up_time.send_status": "Показать статус жителей",
+  "text.wake_up_time.status": "§bСтатус жителей - %s",
+  "text.wake_up_time.lazy_bums": "%s§b; %s§a секунды§b до рабочего времени",
+  "text.wake_up_time.working": "§aработа§b; %s§a секунды§b до окончания рабочего дня",
+  "text.wake_up_time.sleeping": "§aсон",
+  "text.wake_up_time.gathering": "§aсбор",
+  "text.wake_up_time.wandering": "§aсвободное время"
+}

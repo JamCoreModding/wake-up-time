@@ -1,0 +1,13 @@
+{
+  "config.wake_up_time.title": "Wake Up Time Config",
+  "config.wake_up_time.persistent": "Persistent notification",
+  "config.wake_up_time.persistent.tooltip": "If enabled, pressing the keybind will toggle the message on and off. If disabled, the message will only be displayed for a short time.",
+  "category.wake_up_time.": "Wake Up Time",
+  "key.wake_up_time.send_status": "Send villager clock status",
+  "text.wake_up_time.status": "§bEmployed villagers are currently %s",
+  "text.wake_up_time.lazy_bums": "%s§b; %s§a seconds§b until working time",
+  "text.wake_up_time.working": "§aworking§b; %s§a seconds§b until workday ends",
+  "text.wake_up_time.sleeping": "§asleeping",
+  "text.wake_up_time.gathering": "§agathering",
+  "text.wake_up_time.wandering": "§awandering"
+}

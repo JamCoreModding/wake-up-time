@@ -1,27 +1,26 @@
 {
     "schemaVersion": 1,
-    "id": "{{ mod_id }}",
+    "id": "wake_up_time",
     "version": "${version}",
-    "name": "{{ name }}",
-    "description": "{{ description }}",
+    "name": "Wake Up Time",
+    "description": "Figure out what stage of the day your villagers are in",
     "authors": [
-        "{{ author }}"
+        "Jamalam"
     ],
     "contact": {
-        "homepage": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "sources": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "issues": "https://github.com/{{github_owner}}/{{github_repo}}/issues"
+        "homepage": "https://github.com/JamCoreModding/wake-up-time",
+        "sources": "https://github.com/JamCoreModding/wake-up-time",
+        "issues": "https://github.com/JamCoreModding/wake-up-time/issues"
     },
     "license": "MIT",
-    "icon": "assets/{{mod_id}}/icon.png",
+    "icon": "assets/wake_up_time/icon.png",
     "environment": "*",
     "entrypoints": {
-        "main": [
-            "{{group}}.{{mod_id}}.fabric.{{main_class}}Fabric"
+        "client": [
+            "io.github.jamalam360.wake_up_time.fabric.WakeUpTimeFabric"
         ]
     },
     "mixins": [
-        "{{mod_id}}.mixins.json"
     ],
     "depends": {
         "fabric": ">=${fabric_api_version}",

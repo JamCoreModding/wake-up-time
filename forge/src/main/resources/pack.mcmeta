@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "{{ name }}",
+        "description": "Wake Up Time",
         "pack_format": 15
     }
 }
