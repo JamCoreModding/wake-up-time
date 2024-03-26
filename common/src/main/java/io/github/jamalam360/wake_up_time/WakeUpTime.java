@@ -17,7 +17,6 @@ import java.nio.file.Path;
 
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_V;
 
-//TODO: make this only execute on client
 public class WakeUpTime {
 	public static final String MOD_ID = "wake_up_time";
 	public static final String MOD_NAME = "Wake Up Time";
@@ -85,9 +84,5 @@ public class WakeUpTime {
 		final long timeUntilWork = time > 9000 ? 26000 - time : 2000 - time;
 
 		return Component.translatable("text.wake_up_time.lazy_bums", "§a" + status.getString(), "§a" + timeUntilWork / 20);
-	}
-
-	public static class Config {
-		public boolean persistent = false;
 	}
 }
