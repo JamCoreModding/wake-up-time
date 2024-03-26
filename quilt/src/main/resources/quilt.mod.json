@@ -8,7 +8,8 @@
       "name": "Wake Up Time",
       "description": "Figure out what stage of the day your villagers are in",
       "contributors": {
-        "Jamalam": "Owner"
+        "Jamalam": "Maintainer",
+        "triphora": "Original author"
       },
       "contact": {
         "sources": "https://github.com/JamCoreModding/wake-up-time"

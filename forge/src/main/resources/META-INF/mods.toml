@@ -9,7 +9,7 @@ version = "${file.jarVersion}"
 displayName = "Wake Up Time"
 displayURL="https://github.com/JamCoreModding/wake-up-time"
 logoFile = "icon.png"
-authors = "Jamalam"
+authors = "Jamalam, triphora"
 description = '''
 Figure out what stage of the day your villagers are in
 '''
