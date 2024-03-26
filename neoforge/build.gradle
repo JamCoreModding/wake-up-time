@@ -71,6 +71,7 @@ if (System.getenv("CURSEFORGE_API_KEY") != null && System.getenv("MODRINTH_API_K
                 token = System.getenv("MODRINTH_API_KEY")
                 id = "6Eegcm6s"
             }
+        }
     }
 }
 
