@@ -8,6 +8,6 @@
 This mod is fully client-side so can be used on any server. Find it on [Modrinth](https://modrinth.com/mod/wake-up-time) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/wake-up-time).
 
 
-_This mod was originally created by [Triphora](https://modrinth.com/user/triphora), who I took over maintenance from._
+_This mod was originally created by [Triphora](https://modrinth.com/user/triphora), who I took over maintenance from.
 
-[![Rent a sevrer with Bisect Hosting: Use Code jamalam to get 25% off](https://www.bisecthosting.com/partners/custom-banners/e0cc6668-0d29-40ff-9820-4d4f5433198a.webp)](https://bisecthosting.com/jamalam)
+[![Rent a server with Bisect Hosting: Use Code jamalam to get 25% off](https://www.bisecthosting.com/partners/custom-banners/e0cc6668-0d29-40ff-9820-4d4f5433198a.webp)](https://bisecthosting.com/jamalam)
