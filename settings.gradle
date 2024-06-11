@@ -30,6 +30,4 @@ dependencyResolutionManagement {
 rootProject.name = "wake_up_time"
 include("common")
 include("fabric")
-include("quilt")
 include("neoforge")
-include("forge")

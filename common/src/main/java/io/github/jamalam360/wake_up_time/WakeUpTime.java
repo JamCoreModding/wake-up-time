@@ -28,27 +28,6 @@ public class WakeUpTime {
 	public static void init() {
 		LOGGER.info("Initializing Wake Up Time on " + JamLibPlatform.getPlatform().name());
 
-		if (JamLibPlatform.getPlatform() == JamLibPlatform.Platform.FABRIC || JamLibPlatform.getPlatform() == JamLibPlatform.Platform.QUILT) {
-			Path configFolder = Platform.getConfigFolder();
-			Path oldConfig = configFolder.resolve("wake_up_time.json");
-			Path newConfig = configFolder.resolve("wake_up_time.json5");
-
-			if (oldConfig.toFile().exists()) {
-				LOGGER.info("Found an legacy config file, recovering it");
-
-				if (newConfig.toFile().exists()) {
-					LOGGER.warn("Found a new config file, not recovering the legacy config");
-				} else {
-					if (oldConfig.toFile().renameTo(newConfig.toFile())) {
-						LOGGER.info("Recovered the legacy config file");
-					} else {
-						LOGGER.error("Failed to recover the legacy config file");
-					}
-				}
-
-			}
-		}
-
 		JamLib.checkForJarRenaming(WakeUpTime.class);
 		KeyMappingRegistry.register(sendStatusToActionBar);
 		ClientTickEvent.CLIENT_LEVEL_POST.register((level) -> {
